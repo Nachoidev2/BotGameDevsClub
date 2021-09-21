@@ -64,9 +64,7 @@
                     "split_message": "thfZBWWQRq"
                 },
                 "outputs": {
-                    "action": [
-                        "IlKaO1QAbd"
-                    ],
+                    "action": [],
                     "message": [],
                     "error": []
                 }
@@ -368,8 +366,8 @@
             {
                 "name": "create_disbutton_row",
                 "info": {
-                    "x": 7907,
-                    "y": 556,
+                    "x": 7960,
+                    "y": 620,
                     "z": 15,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -652,7 +650,9 @@
                     "setDisabled": "7dld8LKJrJ"
                 },
                 "outputs": {
-                    "action": [],
+                    "action": [
+                        "CCuuY2vuQG"
+                    ],
                     "button": [
                         "whdHZ3UmN3"
                     ]
