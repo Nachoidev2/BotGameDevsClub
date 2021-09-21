@@ -18321,8 +18321,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 4505,
-                    "y": 6073,
+                    "x": 4541,
+                    "y": 6094,
                     "z": 139,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -18335,7 +18335,7 @@
                     "text3": "MnbqjdYYo1"
                 },
                 "options": {
-                    "text": "Bienvenid@ ${text1} a Game Devs Club!\n\n\n\n\n\n\n\n\n            Pasala cheto con los pibes"
+                    "text": "Bienvenid@ ${text1} a Game Devs Club!"
                 },
                 "outputs": {
                     "action": [
@@ -21329,8 +21329,8 @@
             {
                 "name": "number",
                 "info": {
-                    "x": 7463,
-                    "y": 6819,
+                    "x": 7497,
+                    "y": 6815,
                     "z": 368,
                     "color": "#5a5a5a",
                     "height": 107,
