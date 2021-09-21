@@ -1,6 +1,737 @@
 [
     {
         "info": {
+            "title": "Rangos",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 57,
+                    "y": 171,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "AgUuQHdJh7"
+                },
+                "options": {
+                    "command_name": "rangos",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "yes",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "eISJxXAt8A"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [
+                        "AWxhflxPNg",
+                        "fC7GR9gF8O"
+                    ],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "send_message_disbutton",
+                "info": {
+                    "x": 6624,
+                    "y": 402,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "fSagbDzoH2",
+                    "channel": "AWxhflxPNg",
+                    "text": "pv0E7YrnnQ",
+                    "embed": "3IhyAPzF8F",
+                    "attachment": "5DThAoipB1",
+                    "buttons": "dbnjOdLgQw",
+                    "split_message": "thfZBWWQRq"
+                },
+                "outputs": {
+                    "action": [
+                        "IlKaO1QAbd"
+                    ],
+                    "message": [],
+                    "error": []
+                }
+            },
+            {
+                "name": "create_embed_message",
+                "info": {
+                    "x": 1345,
+                    "y": 23,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 517,
+                    "width": 340
+                },
+                "inputs": {
+                    "action": "eISJxXAt8A",
+                    "color": "LLCpIWaWb3",
+                    "thumbnail": "ABmNbKbtZe",
+                    "author_icon": "7CLQuaSNrG",
+                    "author_name": "bLmPgioDrY",
+                    "author_url": "aFrUrXgT5k",
+                    "title": "tfgP9I46yB",
+                    "url": "EosVcQz6l5",
+                    "description": "b5TxIAB4cI",
+                    "image": "7rn0kZcplg",
+                    "footer_icon": "6Nd8kg7ed9",
+                    "footer_text": "p3Rh3aMq38",
+                    "timestamp": "S5I8qeNBXR"
+                },
+                "outputs": {
+                    "action": [
+                        "PlHxkI6pJc"
+                    ],
+                    "message_embed": [
+                        "3IhyAPzF8F"
+                    ]
+                }
+            },
+            {
+                "name": "color",
+                "info": {
+                    "x": 926,
+                    "y": 38,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 105,
+                    "width": 193
+                },
+                "options": {
+                    "color": "#ff00ff"
+                },
+                "outputs": {
+                    "color": [
+                        "LLCpIWaWb3"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 710,
+                    "y": 613,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 318,
+                    "width": 431
+                },
+                "options": {
+                    "text": "Para obtener un rango de las categorias, presione el boton con el nombre del rango que quiera.\nPuede seleccionar mas de una.\nPara sacarse el rango presione nuevamente el boton con el rango que selecciono anteriormente."
+                },
+                "outputs": {
+                    "text": [
+                        "b5TxIAB4cI"
+                    ]
+                }
+            },
+            {
+                "name": "create_disbutton",
+                "info": {
+                    "x": 2158,
+                    "y": 353,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 229
+                },
+                "inputs": {
+                    "action": "O8JKcJcpJO",
+                    "setStyle": "odHYbaxiOH",
+                    "setLabel": "izhwCttc4D",
+                    "setEmoji": "71onGlhM0S",
+                    "setURL": "fb9KmTAbbM",
+                    "setID": "fEbzKfcb17",
+                    "setDisabled": "QqqPmY7SAL"
+                },
+                "outputs": {
+                    "action": [
+                        "RkkbTBmZad"
+                    ],
+                    "button": [
+                        "7wR6BE5F5F"
+                    ]
+                }
+            },
+            {
+                "name": "create_disbutton_row",
+                "info": {
+                    "x": 6292,
+                    "y": 416,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 220
+                },
+                "inputs": {
+                    "action": "8tc0MyCVS5",
+                    "buttons": "uu1jJQ5zaL"
+                },
+                "outputs": {
+                    "action": [
+                        "fSagbDzoH2"
+                    ],
+                    "buttonrow": [
+                        "dbnjOdLgQw"
+                    ]
+                }
+            },
+            {
+                "name": "create_list",
+                "info": {
+                    "x": 1784,
+                    "y": 400,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "PlHxkI6pJc"
+                },
+                "outputs": {
+                    "action": [
+                        "O8JKcJcpJO"
+                    ],
+                    "list": [
+                        "klVSbKYA0k",
+                        "jMkT0j4qfd",
+                        "T8BokklAMd",
+                        "ejtxYbF4K4",
+                        "D3tTnKcQDH",
+                        "uu1jJQ5zaL"
+                    ]
+                }
+            },
+            {
+                "name": "add_item_to_list",
+                "info": {
+                    "x": 2482,
+                    "y": 587,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "RkkbTBmZad",
+                    "list": "klVSbKYA0k",
+                    "item": "7wR6BE5F5F",
+                    "custom_position": "nf98FkzjxQ"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "RZa5X07PYV"
+                    ],
+                    "list": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1583,
+                    "y": 798,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "🎲 Game Desing"
+                },
+                "outputs": {
+                    "text": [
+                        "izhwCttc4D",
+                        "fEbzKfcb17"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 5260,
+                    "y": 1447,
+                    "z": 11,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "1"
+                },
+                "outputs": {
+                    "text": [
+                        "odHYbaxiOH",
+                        "uc3Uv01pMZ",
+                        "iAJPtPU14U",
+                        "gcO3ujHtk0",
+                        "PkfI5t3u0Z"
+                    ]
+                }
+            },
+            {
+                "name": "create_disbutton",
+                "info": {
+                    "x": 3346,
+                    "y": 394,
+                    "z": 12,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 229
+                },
+                "inputs": {
+                    "action": "RZa5X07PYV",
+                    "setStyle": "uc3Uv01pMZ",
+                    "setLabel": "n0xQniJe4b",
+                    "setEmoji": "A8ZR68GhBJ",
+                    "setURL": "OGSQmuYNFN",
+                    "setID": "NNpE794ODq",
+                    "setDisabled": "SE5INDxpKi"
+                },
+                "outputs": {
+                    "action": [
+                        "slmsKBv7qT"
+                    ],
+                    "button": [
+                        "3PHTX9GQnR"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 2797,
+                    "y": 851,
+                    "z": 13,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "⌨ Programador"
+                },
+                "outputs": {
+                    "text": [
+                        "n0xQniJe4b",
+                        "NNpE794ODq"
+                    ]
+                }
+            },
+            {
+                "name": "add_item_to_list",
+                "info": {
+                    "x": 3665,
+                    "y": 661,
+                    "z": 14,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "slmsKBv7qT",
+                    "list": "jMkT0j4qfd",
+                    "item": "3PHTX9GQnR",
+                    "custom_position": "oXnXDRnnv3"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "z93R372pIn"
+                    ],
+                    "list": []
+                }
+            },
+            {
+                "name": "create_disbutton_row",
+                "info": {
+                    "x": 7907,
+                    "y": 556,
+                    "z": 15,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 220
+                },
+                "inputs": {
+                    "action": "nYFoXlJIKC",
+                    "buttons": "dmKzSTwxhv"
+                },
+                "outputs": {
+                    "action": [
+                        "qEAbk23tId"
+                    ],
+                    "buttonrow": [
+                        "DOlQdjRwXf"
+                    ]
+                }
+            },
+            {
+                "name": "send_message_disbutton",
+                "info": {
+                    "x": 8322,
+                    "y": 543,
+                    "z": 16,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "qEAbk23tId",
+                    "channel": "fC7GR9gF8O",
+                    "text": "K0yu3zUMA7",
+                    "embed": "1BgHu4JqnZ",
+                    "attachment": "H0ADf5FzKa",
+                    "buttons": "DOlQdjRwXf",
+                    "split_message": "yEJTkvFYac"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": [],
+                    "error": []
+                }
+            },
+            {
+                "name": "create_disbutton",
+                "info": {
+                    "x": 4261,
+                    "y": 611,
+                    "z": 17,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 229
+                },
+                "inputs": {
+                    "action": "z93R372pIn",
+                    "setStyle": "iAJPtPU14U",
+                    "setLabel": "4oTqi8i5Vh",
+                    "setEmoji": "5tdwJ2GNNk",
+                    "setURL": "BNiEI6C7Iv",
+                    "setID": "KZ3FYgpUYd",
+                    "setDisabled": "pvIuwZPvd4"
+                },
+                "outputs": {
+                    "action": [
+                        "sF8N0cQIVj"
+                    ],
+                    "button": [
+                        "D86ehuF82s"
+                    ]
+                }
+            },
+            {
+                "name": "add_item_to_list",
+                "info": {
+                    "x": 4595,
+                    "y": 832,
+                    "z": 18,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "sF8N0cQIVj",
+                    "list": "T8BokklAMd",
+                    "item": "D86ehuF82s",
+                    "custom_position": "sVEaYcS5oQ"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "qMGtQgsq2j"
+                    ],
+                    "list": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 3838,
+                    "y": 1083,
+                    "z": 19,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "🎨 Artista 2D"
+                },
+                "outputs": {
+                    "text": [
+                        "4oTqi8i5Vh"
+                    ]
+                }
+            },
+            {
+                "name": "create_disbutton",
+                "info": {
+                    "x": 5281,
+                    "y": 671,
+                    "z": 20,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 229
+                },
+                "inputs": {
+                    "action": "qMGtQgsq2j",
+                    "setStyle": "gcO3ujHtk0",
+                    "setLabel": "LevNvsizJ9",
+                    "setEmoji": "ybXKxEExM7",
+                    "setURL": "PbmqygH8l2",
+                    "setID": "kN9uJt459I",
+                    "setDisabled": "WMTNSw3aDs"
+                },
+                "outputs": {
+                    "action": [
+                        "jO5MacH0g3"
+                    ],
+                    "button": [
+                        "8vxedk4Nv5"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 4788,
+                    "y": 1157,
+                    "z": 21,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "🎨 Artista 3D"
+                },
+                "outputs": {
+                    "text": [
+                        "LevNvsizJ9"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 5266,
+                    "y": 1113,
+                    "z": 22,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "✍ Guionista"
+                },
+                "outputs": {
+                    "text": [
+                        "wWEI0FuCyv"
+                    ]
+                }
+            },
+            {
+                "name": "create_disbutton",
+                "info": {
+                    "x": 6240,
+                    "y": 765,
+                    "z": 23,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 229
+                },
+                "inputs": {
+                    "action": "gBZPAHgHyy",
+                    "setStyle": "PkfI5t3u0Z",
+                    "setLabel": "wWEI0FuCyv",
+                    "setEmoji": "F2a1CZLzh7",
+                    "setURL": "t431umBNFo",
+                    "setID": "Smaackww4r",
+                    "setDisabled": "UA86Scirge"
+                },
+                "outputs": {
+                    "action": [
+                        "fOjVyz3xXb"
+                    ],
+                    "button": [
+                        "WIJtpjVygx"
+                    ]
+                }
+            },
+            {
+                "name": "add_item_to_list",
+                "info": {
+                    "x": 5602,
+                    "y": 685,
+                    "z": 24,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "jO5MacH0g3",
+                    "list": "ejtxYbF4K4",
+                    "item": "8vxedk4Nv5",
+                    "custom_position": "1NSrdjjZiu"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "gBZPAHgHyy"
+                    ],
+                    "list": []
+                }
+            },
+            {
+                "name": "add_item_to_list",
+                "info": {
+                    "x": 6625,
+                    "y": 952,
+                    "z": 25,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "fOjVyz3xXb",
+                    "list": "D3tTnKcQDH",
+                    "item": "WIJtpjVygx",
+                    "custom_position": "aktd8HqERk"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "8tc0MyCVS5"
+                    ],
+                    "list": []
+                }
+            },
+            {
+                "name": "create_disbutton",
+                "info": {
+                    "x": 7059,
+                    "y": 506,
+                    "z": 26,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 229
+                },
+                "inputs": {
+                    "action": "qBa9CZs2RK",
+                    "setStyle": "SuFPCQGl33",
+                    "setLabel": "jSvgZeo427",
+                    "setEmoji": "l9BvVdRCfE",
+                    "setURL": "KTmxxRuAge",
+                    "setID": "sigFkvymN6",
+                    "setDisabled": "7dld8LKJrJ"
+                },
+                "outputs": {
+                    "action": [
+                        "CCuuY2vuQG"
+                    ],
+                    "button": [
+                        "whdHZ3UmN3"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 6697,
+                    "y": 761,
+                    "z": 27,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "🎼 Musico"
+                },
+                "outputs": {
+                    "text": [
+                        "SuFPCQGl33"
+                    ]
+                }
+            },
+            {
+                "name": "add_item_to_list",
+                "info": {
+                    "x": 7378,
+                    "y": 537,
+                    "z": 28,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "CCuuY2vuQG",
+                    "list": "EoYlJMwd0g",
+                    "item": "whdHZ3UmN3",
+                    "custom_position": "NHrSwS9BrO"
+                },
+                "options": {
+                    "position_type": "last"
+                },
+                "outputs": {
+                    "action": [
+                        "nYFoXlJIKC"
+                    ],
+                    "list": []
+                }
+            },
+            {
+                "name": "create_list",
+                "info": {
+                    "x": 7014,
+                    "y": 332,
+                    "z": 29,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "IlKaO1QAbd"
+                },
+                "outputs": {
+                    "action": [
+                        "qBa9CZs2RK"
+                    ],
+                    "list": [
+                        "EoYlJMwd0g",
+                        "dmKzSTwxhv"
+                    ]
+                }
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
             "title": "Dolar",
             "description": "",
             "thumbnail": ""
@@ -18747,8 +19478,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 873,
-                    "y": 1278,
+                    "x": 879,
+                    "y": 1234,
                     "z": 192,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -21775,6 +22506,31 @@
                     "text": [
                         "sOOZgnrVGC"
                     ]
+                }
+            },
+            {
+                "name": "send_message_disbutton",
+                "info": {
+                    "x": 3271,
+                    "y": 9365,
+                    "z": 392,
+                    "color": "#5a5a5a",
+                    "height": 268,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "ti2TXall4Q",
+                    "channel": "k8rKJiduW4",
+                    "text": "dmP1itr0Wh",
+                    "embed": "zjshtIS39U",
+                    "attachment": "8V6rWkiisV",
+                    "buttons": "4A41xxa9Lu",
+                    "split_message": "UrmXk7LErI"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": [],
+                    "error": []
                 }
             }
         ],
