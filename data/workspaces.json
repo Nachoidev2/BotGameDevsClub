@@ -3519,7 +3519,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "795871278972141638"
+                    "text": "889278354958737409"
                 },
                 "outputs": {
                     "text": [
@@ -3766,8 +3766,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 646,
-                    "y": 213,
+                    "x": 570,
+                    "y": 211,
                     "z": 30,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -3810,8 +3810,8 @@
             {
                 "name": "get_text_channel_info",
                 "info": {
-                    "x": 271,
-                    "y": 566,
+                    "x": 274,
+                    "y": 564,
                     "z": 32,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -3822,7 +3822,7 @@
                     "text_channel": "yo4x4NCNj7"
                 },
                 "options": {
-                    "text_channel_info": "1"
+                    "text_channel_info": "16"
                 },
                 "outputs": {
                     "action": [
@@ -3861,15 +3861,15 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 456,
-                    "y": 805,
+                    "x": 466,
+                    "y": 733,
                     "z": 34,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "795873403265089546"
+                    "text": "889938226419236885"
                 },
                 "outputs": {
                     "text": [
@@ -7230,7 +7230,7 @@
                     "text3": "N0ezPMTIdB"
                 },
                 "options": {
-                    "text": "🟢 𝕠𝕟𝕝𝕚𝕟𝕖: ${text1}"
+                    "text": "🟢 Online: ${text1}"
                 },
                 "outputs": {
                     "action": [
@@ -9179,8 +9179,7 @@
                     "text": [
                         "9SBtcFJmqi"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "control_variable",
@@ -9226,8 +9225,7 @@
                         "JYDtfrkUHW",
                         "rbv7zf0K51"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "boolean",
@@ -9246,8 +9244,7 @@
                     "boolean": [
                         "XN9iSpGVQd"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "create_canvas_mod3",
@@ -9311,8 +9308,7 @@
                         "aOTZquqJZB",
                         "VYumohem7J"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -9332,8 +9328,7 @@
                         "GJneOtQLH4",
                         "vYIku6edpX"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "convert_canvas_to_image_mod2",
@@ -9356,8 +9351,7 @@
                     "image": [
                         "AheJycfzlG"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "Chad_send_messagev2.2",
@@ -9406,9 +9400,7 @@
                     "message": [
                         "Y8eLHFxj2k"
                     ]
-                },
-                "inputs": {},
-                "options": {}
+                }
             },
             {
                 "name": "Switch_conditional",
@@ -9474,8 +9466,7 @@
                     "text": [
                         "XhPjjZ2mWM"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -9494,8 +9485,7 @@
                     "text": [
                         "jMuyxKtbHJ"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -9514,8 +9504,7 @@
                     "text": [
                         "9ME1IxC5Qe"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -9534,8 +9523,7 @@
                     "text": [
                         "YuiBmPwAbt"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -9554,8 +9542,7 @@
                     "text": [
                         "uW2fbVSrY7"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -9574,8 +9561,7 @@
                     "text": [
                         "0O26CtHtzR"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -9594,8 +9580,7 @@
                     "text": [
                         "wUi0Iabcb7"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -9614,8 +9599,7 @@
                     "text": [
                         "gBQJ1Teow3"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -9634,8 +9618,7 @@
                     "text": [
                         "HMC7AXl4S9"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "Switch_conditional",
@@ -9725,8 +9708,7 @@
                         "pqhC4SKR99",
                         "xKEtbWAhqP"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "get_message_info",
@@ -9847,8 +9829,7 @@
                     "canvas": [
                         "49u87aU7NJ"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "draw_image_on_canvas_mod4",
@@ -9877,8 +9858,7 @@
                     "canvas": [
                         "3EkjrJmTwO"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "draw_image_on_canvas_mod4",
@@ -9907,8 +9887,7 @@
                     "canvas": [
                         "bO6yJYX5NQ"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "draw_image_on_canvas_mod4",
@@ -9937,8 +9916,7 @@
                     "canvas": [
                         "luAwtTOBxx"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "draw_image_on_canvas_mod4",
@@ -9967,8 +9945,7 @@
                     "canvas": [
                         "bYQdXvCpIb"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "number",
@@ -10004,8 +9981,7 @@
                         "g8OJAKkkNF",
                         "8Cyw9ZIX0D"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "conditional_textv9",
@@ -10038,8 +10014,7 @@
                         "BycjNBdEJr",
                         "9scdppkdvy"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text",
@@ -10058,8 +10033,7 @@
                     "text": [
                         "UVZpYkyMK2"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -10078,8 +10052,7 @@
                     "text": [
                         "M66CHyW5uz"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "number",
@@ -10103,8 +10076,7 @@
                         "ePbDwm0MvJ",
                         "vQDbw3ldnZ"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "Chad_send_messagev2.2",
@@ -10159,8 +10131,7 @@
                     "image": [
                         "8s63V4lP96"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "draw_image_on_canvas_mod4",
@@ -10189,8 +10160,7 @@
                     "canvas": [
                         "WlG0s8NhIr"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "draw_image_on_canvas_mod4",
@@ -10219,8 +10189,7 @@
                     "canvas": [
                         "HNA3x4Yoif"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "draw_image_on_canvas_mod4",
@@ -10249,8 +10218,7 @@
                     "canvas": [
                         "iPbQ2YTUdk"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "draw_image_on_canvas_mod4",
@@ -10279,8 +10247,7 @@
                     "canvas": [
                         "0km4nbgg9G"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "number",
@@ -10304,8 +10271,7 @@
                         "q1n1s3Nu0l",
                         "4bPFOt75mr"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "number",
@@ -10329,8 +10295,7 @@
                         "PcKb470DQB",
                         "bsXfJN9bgh"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "emitter",
@@ -10380,8 +10345,7 @@
                     ],
                     "value2": [],
                     "value3": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text",
@@ -10409,8 +10373,7 @@
                         "t2gF90Bzps",
                         "P3mdXi6DuW"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "emitter",
@@ -10668,8 +10631,7 @@
                     "text": [
                         "TOOqrpIz2m"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "boolean",
@@ -10688,8 +10650,7 @@
                     "boolean": [
                         "imlwl6Jf47"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "boolean",
@@ -10708,8 +10669,7 @@
                     "boolean": [
                         "Qu3LQ7nhOK"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -10728,8 +10688,7 @@
                     "text": [
                         "6PDGpVURvB"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "send_message",
@@ -10752,8 +10711,7 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text",
@@ -10772,8 +10730,7 @@
                     "text": [
                         "T0pWMXsTpN"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "send_message",
@@ -10796,8 +10753,7 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text",
@@ -10816,8 +10772,7 @@
                     "text": [
                         "MYSqUxzvWt"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -10836,8 +10791,7 @@
                     "text": [
                         "AYlH07dpfG"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -10856,8 +10810,7 @@
                     "text": [
                         "nPKMqECps3"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "send_message",
@@ -10880,8 +10833,7 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text",
@@ -10900,8 +10852,7 @@
                     "text": [
                         "FTqppJLJRt"
                     ]
-                },
-                "inputs": {}
+                }
             }
         ],
         "notes": [
