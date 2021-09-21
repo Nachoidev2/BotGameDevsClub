@@ -21250,8 +21250,8 @@
             {
                 "name": "number",
                 "info": {
-                    "x": 7473,
-                    "y": 6687,
+                    "x": 7406,
+                    "y": 6667,
                     "z": 355,
                     "color": "#5a5a5a",
                     "height": 107,
@@ -21262,7 +21262,8 @@
                 },
                 "outputs": {
                     "number": [
-                        "kQuJNZq4oF"
+                        "kQuJNZq4oF",
+                        "LKKao1lin8"
                     ]
                 }
             },
@@ -21288,8 +21289,8 @@
             {
                 "name": "number_6x",
                 "info": {
-                    "x": 6746,
-                    "y": 6816,
+                    "x": 6806,
+                    "y": 6752,
                     "z": 362,
                     "color": "#5a5a5a",
                     "height": 387,
@@ -21307,8 +21308,7 @@
                 "outputs": {
                     "number": [],
                     "number1": [
-                        "n8ktX1viGE",
-                        "LKKao1lin8"
+                        "n8ktX1viGE"
                     ],
                     "number2": [
                         "iw6Esogtpi"
@@ -21329,8 +21329,8 @@
             {
                 "name": "number",
                 "info": {
-                    "x": 7497,
-                    "y": 6815,
+                    "x": 7407,
+                    "y": 6797,
                     "z": 368,
                     "color": "#5a5a5a",
                     "height": 107,
