@@ -47,8 +47,8 @@
             {
                 "name": "send_message_disbutton",
                 "info": {
-                    "x": 6624,
-                    "y": 402,
+                    "x": 6562,
+                    "y": 325,
                     "z": 2,
                     "color": "#5a5a5a",
                     "height": 268,
@@ -64,9 +64,13 @@
                     "split_message": "thfZBWWQRq"
                 },
                 "outputs": {
-                    "action": [],
+                    "action": [
+                        "QAROKDl6FJ"
+                    ],
                     "message": [],
-                    "error": []
+                    "error": [
+                        "3LBjVMNWbc"
+                    ]
                 }
             },
             {
@@ -125,8 +129,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 710,
-                    "y": 613,
+                    "x": 704,
+                    "y": 551,
                     "z": 5,
                     "color": "#5a5a5a",
                     "height": 318,
@@ -172,8 +176,8 @@
             {
                 "name": "create_disbutton_row",
                 "info": {
-                    "x": 6292,
-                    "y": 416,
+                    "x": 6240,
+                    "y": 436,
                     "z": 7,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -706,8 +710,8 @@
             {
                 "name": "create_list",
                 "info": {
-                    "x": 7014,
-                    "y": 332,
+                    "x": 7194,
+                    "y": 362,
                     "z": 29,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -743,6 +747,24 @@
                     "text": [
                         "K0yu3zUMA7"
                     ]
+                }
+            },
+            {
+                "name": "console_log",
+                "info": {
+                    "x": 6926,
+                    "y": 323,
+                    "z": 31,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "QAROKDl6FJ",
+                    "value": "3LBjVMNWbc"
+                },
+                "outputs": {
+                    "action": []
                 }
             }
         ],
