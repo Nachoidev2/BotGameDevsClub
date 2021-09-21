@@ -21235,7 +21235,7 @@
                     "opacity2": "eTAtveSYz5"
                 },
                 "options": {
-                    "align": "center",
+                    "align": "left",
                     "text_type": "fill"
                 },
                 "outputs": {
@@ -21307,8 +21307,7 @@
                 "outputs": {
                     "number": [],
                     "number1": [
-                        "n8ktX1viGE",
-                        "LKKao1lin8"
+                        "n8ktX1viGE"
                     ],
                     "number2": [
                         "iw6Esogtpi"
