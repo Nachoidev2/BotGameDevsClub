@@ -18294,7 +18294,7 @@
                 }
             },
             {
-                "name": "member_join_server_event",
+                "name": "member_join_server_event_MOD",
                 "info": {
                     "x": 24,
                     "y": 5864,
@@ -18305,7 +18305,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "UUiFfq4Gs6"
+                        "Ab1i1KICUD"
                     ],
                     "member": [
                         "dR9by4ORyC",
@@ -18313,7 +18313,9 @@
                         "G6rZS8qHFm",
                         "lPHtEnqtnv"
                     ],
-                    "server": []
+                    "server": [
+                        "K7vEV2RNjf"
+                    ]
                 }
             },
             {
@@ -20726,8 +20728,8 @@
             {
                 "name": "get_server_info",
                 "info": {
-                    "x": 475,
-                    "y": 5622,
+                    "x": 388,
+                    "y": 5767,
                     "z": 331,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -20771,8 +20773,8 @@
             {
                 "name": "check_comparison",
                 "info": {
-                    "x": 551,
-                    "y": 6062,
+                    "x": 475,
+                    "y": 5959,
                     "z": 333,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -20787,7 +20789,9 @@
                     "comparison_type": "equal"
                 },
                 "outputs": {
-                    "action1": [],
+                    "action1": [
+                        "UUiFfq4Gs6"
+                    ],
                     "action2": []
                 }
             },
@@ -21737,8 +21741,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 1098,
-                    "y": 5846,
+                    "x": 1089,
+                    "y": 5961,
                     "z": 390,
                     "color": "#5a5a5a",
                     "height": 113,
