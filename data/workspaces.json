@@ -65,12 +65,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "QAROKDl6FJ"
+                        "qBa9CZs2RK"
                     ],
                     "message": [],
-                    "error": [
-                        "3LBjVMNWbc"
-                    ]
+                    "error": []
                 }
             },
             {
@@ -370,8 +368,8 @@
             {
                 "name": "create_disbutton_row",
                 "info": {
-                    "x": 7960,
-                    "y": 620,
+                    "x": 7934,
+                    "y": 994,
                     "z": 15,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -382,12 +380,8 @@
                     "buttons": "dmKzSTwxhv"
                 },
                 "outputs": {
-                    "action": [
-                        "qEAbk23tId"
-                    ],
-                    "buttonrow": [
-                        "DOlQdjRwXf"
-                    ]
+                    "action": [],
+                    "buttonrow": []
                 }
             },
             {
@@ -410,9 +404,13 @@
                     "split_message": "yEJTkvFYac"
                 },
                 "outputs": {
-                    "action": [],
+                    "action": [
+                        "QAROKDl6FJ"
+                    ],
                     "message": [],
-                    "error": []
+                    "error": [
+                        "3LBjVMNWbc"
+                    ]
                 }
             },
             {
@@ -658,10 +656,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "CCuuY2vuQG"
+                        "qEAbk23tId"
                     ],
                     "button": [
-                        "whdHZ3UmN3"
+                        "whdHZ3UmN3",
+                        "DOlQdjRwXf"
                     ]
                 }
             },
@@ -688,8 +687,8 @@
             {
                 "name": "add_item_to_list",
                 "info": {
-                    "x": 7378,
-                    "y": 537,
+                    "x": 7483,
+                    "y": 910,
                     "z": 28,
                     "color": "#5a5a5a",
                     "height": 196,
@@ -714,8 +713,8 @@
             {
                 "name": "create_list",
                 "info": {
-                    "x": 7194,
-                    "y": 362,
+                    "x": 7441,
+                    "y": 310,
                     "z": 29,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -725,9 +724,7 @@
                     "action": "IlKaO1QAbd"
                 },
                 "outputs": {
-                    "action": [
-                        "qBa9CZs2RK"
-                    ],
+                    "action": [],
                     "list": [
                         "EoYlJMwd0g",
                         "dmKzSTwxhv"
@@ -737,8 +734,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 6926,
-                    "y": 323,
+                    "x": 8661,
+                    "y": 728,
                     "z": 31,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -749,9 +746,7 @@
                     "value": "3LBjVMNWbc"
                 },
                 "outputs": {
-                    "action": [
-                        "IlKaO1QAbd"
-                    ]
+                    "action": []
                 }
             }
         ],
