@@ -17920,8 +17920,8 @@
             {
                 "name": "join_voice_channel",
                 "info": {
-                    "x": 1054,
-                    "y": 4842,
+                    "x": 957,
+                    "y": 4852,
                     "z": 48,
                     "color": "#5a5a5a",
                     "height": 134,
@@ -18294,7 +18294,7 @@
                 }
             },
             {
-                "name": "member_join_server_event_MOD",
+                "name": "member_join_server_event",
                 "info": {
                     "x": 24,
                     "y": 5864,
@@ -18305,7 +18305,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "Ab1i1KICUD"
+                        "UUiFfq4Gs6"
                     ],
                     "member": [
                         "dR9by4ORyC",
@@ -18313,9 +18313,7 @@
                         "G6rZS8qHFm",
                         "lPHtEnqtnv"
                     ],
-                    "server": [
-                        "K7vEV2RNjf"
-                    ]
+                    "server": []
                 }
             },
             {
@@ -20728,8 +20726,8 @@
             {
                 "name": "get_server_info",
                 "info": {
-                    "x": 448,
-                    "y": 5914,
+                    "x": 475,
+                    "y": 5622,
                     "z": 331,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -20773,8 +20771,8 @@
             {
                 "name": "check_comparison",
                 "info": {
-                    "x": 699,
-                    "y": 6078,
+                    "x": 551,
+                    "y": 6062,
                     "z": 333,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -20789,9 +20787,7 @@
                     "comparison_type": "equal"
                 },
                 "outputs": {
-                    "action1": [
-                        "UUiFfq4Gs6"
-                    ],
+                    "action1": [],
                     "action2": []
                 }
             },
@@ -21741,8 +21737,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 1172,
-                    "y": 6302,
+                    "x": 1098,
+                    "y": 5846,
                     "z": 390,
                     "color": "#5a5a5a",
                     "height": 113,
