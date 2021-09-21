@@ -7625,8 +7625,8 @@
             {
                 "name": "find_server",
                 "info": {
-                    "x": 611,
-                    "y": 2518,
+                    "x": 552,
+                    "y": 2517,
                     "z": 34,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -20822,8 +20822,8 @@
             {
                 "name": "check_comparison",
                 "info": {
-                    "x": 811,
-                    "y": 6088,
+                    "x": 699,
+                    "y": 6078,
                     "z": 333,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -20841,7 +20841,9 @@
                     "action1": [
                         "HmZlyZzDob"
                     ],
-                    "action2": []
+                    "action2": [
+                        "UUiFfq4Gs6"
+                    ]
                 }
             },
             {
@@ -21784,6 +21786,43 @@
                 "outputs": {
                     "text": [
                         "eTj8uX1RiL"
+                    ]
+                }
+            },
+            {
+                "name": "console_log",
+                "info": {
+                    "x": 1172,
+                    "y": 6302,
+                    "z": 390,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "UUiFfq4Gs6",
+                    "value": "sOOZgnrVGC"
+                },
+                "outputs": {
+                    "action": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 858,
+                    "y": 6272,
+                    "z": 391,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "equide"
+                },
+                "outputs": {
+                    "text": [
+                        "sOOZgnrVGC"
                     ]
                 }
             }
