@@ -20,7 +20,7 @@
                     "command_slowmode": "AgUuQHdJh7"
                 },
                 "options": {
-                    "command_name": "rangos",
+                    "command_name": "3",
                     "custom_prefix": "",
                     "command_restriction": "none",
                     "required_member_permission": "none",
@@ -332,7 +332,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "Programador"
+                    "text": "⌨ Programador"
                 },
                 "outputs": {
                     "text": [
