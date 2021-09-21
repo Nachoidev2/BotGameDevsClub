@@ -18345,8 +18345,8 @@
             {
                 "name": "member_join_server_event_MOD",
                 "info": {
-                    "x": 0,
-                    "y": 5882,
+                    "x": 24,
+                    "y": 5864,
                     "z": 138,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -20777,8 +20777,8 @@
             {
                 "name": "get_server_info",
                 "info": {
-                    "x": 414,
-                    "y": 5908,
+                    "x": 448,
+                    "y": 5914,
                     "z": 331,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -20839,11 +20839,9 @@
                 },
                 "outputs": {
                     "action1": [
-                        "HmZlyZzDob"
-                    ],
-                    "action2": [
                         "UUiFfq4Gs6"
-                    ]
+                    ],
+                    "action2": []
                 }
             },
             {
@@ -21804,7 +21802,9 @@
                     "value": "sOOZgnrVGC"
                 },
                 "outputs": {
-                    "action": []
+                    "action": [
+                        "HmZlyZzDob"
+                    ]
                 }
             },
             {
