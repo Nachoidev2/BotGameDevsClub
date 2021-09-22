@@ -47,8 +47,8 @@
             {
                 "name": "send_message_disbutton",
                 "info": {
-                    "x": 9648,
-                    "y": 399,
+                    "x": 10211,
+                    "y": 427,
                     "z": 2,
                     "color": "#5a5a5a",
                     "height": 268,
@@ -370,8 +370,8 @@
             {
                 "name": "create_disbutton_row",
                 "info": {
-                    "x": 8605,
-                    "y": 753,
+                    "x": 8979,
+                    "y": 931,
                     "z": 15,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -640,8 +640,8 @@
             {
                 "name": "create_disbutton",
                 "info": {
-                    "x": 7673,
-                    "y": 609,
+                    "x": 8100,
+                    "y": 752,
                     "z": 26,
                     "color": "#5a5a5a",
                     "height": 268,
@@ -669,8 +669,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 7058,
-                    "y": 1096,
+                    "x": 6967,
+                    "y": 1256,
                     "z": 27,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -689,8 +689,8 @@
             {
                 "name": "add_item_to_list",
                 "info": {
-                    "x": 8001,
-                    "y": 687,
+                    "x": 8443,
+                    "y": 843,
                     "z": 28,
                     "color": "#5a5a5a",
                     "height": 196,
@@ -730,7 +730,6 @@
                         "S17ZGP8CgU"
                     ],
                     "list": [
-                        "KMYMC0sEgd",
                         "1pjOS2Wm1M",
                         "bzf6arosrj"
                     ]
@@ -739,8 +738,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 10076,
-                    "y": 520,
+                    "x": 10614,
+                    "y": 528,
                     "z": 31,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -757,8 +756,8 @@
             {
                 "name": "create_list",
                 "info": {
-                    "x": 8220,
-                    "y": 471,
+                    "x": 8286,
+                    "y": 461,
                     "z": 32,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -774,29 +773,6 @@
                     "list": [
                         "dmKzSTwxhv",
                         "EoYlJMwd0g"
-                    ]
-                }
-            },
-            {
-                "name": "create_disbutton_row",
-                "info": {
-                    "x": 9304,
-                    "y": 424,
-                    "z": 33,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 220
-                },
-                "inputs": {
-                    "action": "WY1hMaNqvy",
-                    "buttons": "KMYMC0sEgd"
-                },
-                "outputs": {
-                    "action": [
-                        "fSagbDzoH2"
-                    ],
-                    "buttonrow": [
-                        "dbnjOdLgQw"
                     ]
                 }
             },
@@ -829,8 +805,8 @@
             {
                 "name": "add_item_to_list",
                 "info": {
-                    "x": 8890,
-                    "y": 756,
+                    "x": 9349,
+                    "y": 620,
                     "z": 35,
                     "color": "#5a5a5a",
                     "height": 196,
@@ -847,9 +823,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "WY1hMaNqvy"
+                        "fSagbDzoH2"
                     ],
-                    "list": []
+                    "list": [
+                        "dbnjOdLgQw"
+                    ]
                 }
             }
         ],
