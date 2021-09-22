@@ -1,6 +1,146 @@
 [
     {
         "info": {
+            "title": "My New Workspace",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 137,
+                    "y": 353,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "MzxMCSsavr"
+                },
+                "options": {
+                    "command_name": "nuke",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "uzuI9vrf7M"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [
+                        "q6kXkCu885"
+                    ],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "get_text_channel_info",
+                "info": {
+                    "x": 1096,
+                    "y": 353,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 687
+                },
+                "inputs": {
+                    "action": "uzuI9vrf7M",
+                    "text_channel": "q6kXkCu885"
+                },
+                "options": {
+                    "text_channel_info": "11"
+                },
+                "outputs": {
+                    "action": [
+                        "XzgPOV1K8V"
+                    ],
+                    "result": [
+                        "NJ8Jvy7P5Q"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 1865,
+                    "y": 362,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "XzgPOV1K8V",
+                    "list": "NJ8Jvy7P5Q",
+                    "custom_position": "mLRuGietOr"
+                },
+                "options": {
+                    "position_type": "random"
+                },
+                "outputs": {
+                    "action": [
+                        "1VmXqRtGh7"
+                    ],
+                    "value": [
+                        "Nzx31CIqdF"
+                    ]
+                }
+            },
+            {
+                "name": "delete_messages",
+                "info": {
+                    "x": 2332,
+                    "y": 695,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 300
+                },
+                "inputs": {
+                    "action": "TrxyH9UAW4",
+                    "text_channel": "UU92O8Uqzu",
+                    "amount_to_delete": "q6Yvgsw35Z"
+                },
+                "outputs": {
+                    "action": [],
+                    "messages": []
+                }
+            },
+            {
+                "name": "delete_message",
+                "info": {
+                    "x": 2390,
+                    "y": 411,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 196,
+                    "width": 276
+                },
+                "inputs": {
+                    "action": "1VmXqRtGh7",
+                    "message": "Nzx31CIqdF",
+                    "timeout": "7AfqkAy9aJ",
+                    "reason": "hPrsZ9AvVJ"
+                },
+                "outputs": {
+                    "action": []
+                }
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
             "title": "Rangos",
             "description": "",
             "thumbnail": ""
@@ -22391,7 +22531,7 @@
                     "text3": "dLzxsUQitF"
                 },
                 "options": {
-                    "text": "<@!${text1}> escribi aca lo que le queres decir a los administradores"
+                    "text": "<@!${text1}> Escribe aquí lo que quieras comunicarles a los administradores del servidor"
                 },
                 "outputs": {
                     "action": [
