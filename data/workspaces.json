@@ -20832,8 +20832,8 @@
             {
                 "name": "send_message",
                 "info": {
-                    "x": 4180,
-                    "y": 1882,
+                    "x": 4132,
+                    "y": 1877,
                     "z": 201,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -20869,14 +20869,14 @@
                     "text_channel": "vPQJaOxZEM"
                 },
                 "options": {
-                    "text_channel_info": "14"
+                    "text_channel_info": "13"
                 },
                 "outputs": {
                     "action": [
-                        "JbkEEutC7s"
+                        "id9EkxKafh"
                     ],
                     "result": [
-                        "iyM97Hdlsz"
+                        "qMOHNfvwhL"
                     ]
                 }
             },
@@ -21090,8 +21090,8 @@
             {
                 "name": "delete_channel",
                 "info": {
-                    "x": 4780,
-                    "y": 2823,
+                    "x": 5032,
+                    "y": 2818,
                     "z": 211,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -21119,33 +21119,12 @@
                     "width": 268
                 },
                 "options": {
-                    "boolean_type": "true"
+                    "boolean_type": "false"
                 },
                 "outputs": {
                     "boolean": [
                         "wEgPjzIe4P"
                     ]
-                }
-            },
-            {
-                "name": "check_if_value_exists",
-                "info": {
-                    "x": 4454,
-                    "y": 2815,
-                    "z": 213,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 273
-                },
-                "inputs": {
-                    "action": "JbkEEutC7s",
-                    "value": "iyM97Hdlsz"
-                },
-                "outputs": {
-                    "action1": [
-                        "FeuAxrMEiA"
-                    ],
-                    "action2": []
                 }
             },
             {
@@ -22481,8 +22460,8 @@
             {
                 "name": "get_member_info",
                 "info": {
-                    "x": 2385,
-                    "y": 2391,
+                    "x": 2372,
+                    "y": 2373,
                     "z": 324,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -23817,8 +23796,8 @@
             {
                 "name": "get_member_info",
                 "info": {
-                    "x": 2673,
-                    "y": 2512,
+                    "x": 2657,
+                    "y": 2513,
                     "z": 398,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -23856,6 +23835,50 @@
                 "outputs": {
                     "text": [
                         "xaygLjg6Ls"
+                    ]
+                }
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 4484,
+                    "y": 2786,
+                    "z": 400,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "id9EkxKafh",
+                    "value1": "qMOHNfvwhL",
+                    "value2": "s1P18Y6MJA"
+                },
+                "options": {
+                    "comparison_type": "includes"
+                },
+                "outputs": {
+                    "action1": [
+                        "FeuAxrMEiA"
+                    ],
+                    "action2": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 4322,
+                    "y": 3037,
+                    "z": 401,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "ticket-"
+                },
+                "outputs": {
+                    "text": [
+                        "s1P18Y6MJA"
                     ]
                 }
             }
