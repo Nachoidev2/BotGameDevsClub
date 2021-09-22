@@ -849,42 +849,19 @@
                 },
                 "outputs": {
                     "action": [
-                        "12UOsSPAgI"
+                        "12UOsSPAgI",
+                        "0wqPxbB4fq"
                     ],
                     "user": [],
                     "member": [
-                        "4ZncjG8V6m",
                         "MrNM0DrGH2",
-                        "f9yLunmtv6"
+                        "f9yLunmtv6",
+                        "5lNe2oyDyg"
                     ],
                     "channel": [],
                     "message": [],
-                    "button": []
-                }
-            },
-            {
-                "name": "get_member_info",
-                "info": {
-                    "x": 846,
-                    "y": 1622,
-                    "z": 37,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 740
-                },
-                "inputs": {
-                    "action": "5PiEeJ1rz3",
-                    "member": "4ZncjG8V6m"
-                },
-                "options": {
-                    "member_info": "21"
-                },
-                "outputs": {
-                    "action": [
-                        "Q9IJg6xzVd"
-                    ],
-                    "result": [
-                        "YvYDlUPNpX"
+                    "button": [
+                        "CdeG2inq49"
                     ]
                 }
             },
@@ -907,7 +884,9 @@
                     "reason2": "WTSmMnN6kB"
                 },
                 "outputs": {
-                    "action": []
+                    "action": [
+                        "IqcJP79piC"
+                    ]
                 }
             },
             {
@@ -929,13 +908,11 @@
                     "find_role_by": "id"
                 },
                 "outputs": {
-                    "action": [
-                        "5PiEeJ1rz3"
-                    ],
+                    "action": [],
                     "role": [
                         "e100LZrFW9",
-                        "5uh2Epzuqe",
-                        "W2MgQV43Yv"
+                        "W2MgQV43Yv",
+                        "t7hd3fyH83"
                     ]
                 }
             },
@@ -959,33 +936,6 @@
                 }
             },
             {
-                "name": "check_comparison",
-                "info": {
-                    "x": 1767,
-                    "y": 1450,
-                    "z": 41,
-                    "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 494
-                },
-                "inputs": {
-                    "action": "Q9IJg6xzVd",
-                    "value1": "5uh2Epzuqe",
-                    "value2": "YvYDlUPNpX"
-                },
-                "options": {
-                    "comparison_type": "includes"
-                },
-                "outputs": {
-                    "action1": [
-                        "NEsIsZXquk"
-                    ],
-                    "action2": [
-                        "T5ROs9mkDS"
-                    ]
-                }
-            },
-            {
                 "name": "remove_member_role",
                 "info": {
                     "x": 2491,
@@ -1002,7 +952,72 @@
                     "reason": "AjGQDufeww"
                 },
                 "outputs": {
-                    "action": []
+                    "action": [
+                        "ikhcyqxQy9"
+                    ]
+                }
+            },
+            {
+                "name": "check_if_member_has_role",
+                "info": {
+                    "x": 1803,
+                    "y": 1405,
+                    "z": 44,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 288
+                },
+                "inputs": {
+                    "action": "0wqPxbB4fq",
+                    "member": "5lNe2oyDyg",
+                    "role": "t7hd3fyH83"
+                },
+                "outputs": {
+                    "action1": [
+                        "NEsIsZXquk"
+                    ],
+                    "action2": [
+                        "T5ROs9mkDS"
+                    ]
+                }
+            },
+            {
+                "name": "end_disbutton_action",
+                "info": {
+                    "x": 3198,
+                    "y": 1653,
+                    "z": 45,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 213
+                },
+                "inputs": {
+                    "action": "OPO1MJk1br",
+                    "button": "CdeG2inq49"
+                },
+                "outputs": {
+                    "action": [],
+                    "error": []
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 2830,
+                    "y": 1683,
+                    "z": 46,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "ikhcyqxQy9",
+                    "action2": "IqcJP79piC"
+                },
+                "outputs": {
+                    "action": [
+                        "OPO1MJk1br"
+                    ]
                 }
             }
         ],
