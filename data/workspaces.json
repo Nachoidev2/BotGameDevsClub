@@ -1501,7 +1501,8 @@
                     "user": [],
                     "member": [
                         "7bYga6yBDL",
-                        "gHkrUbDy34"
+                        "gHkrUbDy34",
+                        "LnfW5qoYMR"
                     ],
                     "channel": [],
                     "message": [],
@@ -1563,7 +1564,6 @@
                     ],
                     "role": [
                         "vwDfnenbUA",
-                        "LnfW5qoYMR",
                         "fUDPtaFlhi",
                         "UejWfUxv0s"
                     ]
@@ -1810,8 +1810,8 @@
             {
                 "name": "remove_member_role",
                 "info": {
-                    "x": 1875,
-                    "y": 4683,
+                    "x": 1905,
+                    "y": 4709,
                     "z": 81,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -1832,8 +1832,8 @@
             {
                 "name": "add_member_role",
                 "info": {
-                    "x": 1848,
-                    "y": 4924,
+                    "x": 1868,
+                    "y": 4960,
                     "z": 82,
                     "color": "#5a5a5a",
                     "height": 321,
