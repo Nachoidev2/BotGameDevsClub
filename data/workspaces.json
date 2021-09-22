@@ -265,7 +265,8 @@
                 "outputs": {
                     "text": [
                         "izhwCttc4D",
-                        "fEbzKfcb17"
+                        "fEbzKfcb17",
+                        "2t3HvfGEYN"
                     ]
                 }
             },
@@ -828,6 +829,180 @@
                     "list": [
                         "dbnjOdLgQw"
                     ]
+                }
+            },
+            {
+                "name": "disbutton_event",
+                "info": {
+                    "x": 284,
+                    "y": 1384,
+                    "z": 36,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 392
+                },
+                "inputs": {
+                    "buttonid": "2t3HvfGEYN"
+                },
+                "options": {
+                    "triggerfilter": "false"
+                },
+                "outputs": {
+                    "action": [
+                        "12UOsSPAgI"
+                    ],
+                    "user": [],
+                    "member": [
+                        "4ZncjG8V6m",
+                        "MrNM0DrGH2",
+                        "f9yLunmtv6"
+                    ],
+                    "channel": [],
+                    "message": [],
+                    "button": []
+                }
+            },
+            {
+                "name": "get_member_info",
+                "info": {
+                    "x": 846,
+                    "y": 1622,
+                    "z": 37,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 740
+                },
+                "inputs": {
+                    "action": "5PiEeJ1rz3",
+                    "member": "4ZncjG8V6m"
+                },
+                "options": {
+                    "member_info": "21"
+                },
+                "outputs": {
+                    "action": [
+                        "Q9IJg6xzVd"
+                    ],
+                    "result": [
+                        "YvYDlUPNpX"
+                    ]
+                }
+            },
+            {
+                "name": "add_member_role",
+                "info": {
+                    "x": 2453,
+                    "y": 1714,
+                    "z": 38,
+                    "color": "#5a5a5a",
+                    "height": 321,
+                    "width": 276
+                },
+                "inputs": {
+                    "action": "T5ROs9mkDS",
+                    "member": "MrNM0DrGH2",
+                    "role": "e100LZrFW9",
+                    "time": "yaNme0UqHf",
+                    "reason1": "YJoIAEg6WU",
+                    "reason2": "WTSmMnN6kB"
+                },
+                "outputs": {
+                    "action": []
+                }
+            },
+            {
+                "name": "find_role",
+                "info": {
+                    "x": 864,
+                    "y": 1380,
+                    "z": 39,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 446
+                },
+                "inputs": {
+                    "action": "12UOsSPAgI",
+                    "server": "QhgIrVgNkd",
+                    "search_value": "OUJoxNSvr2"
+                },
+                "options": {
+                    "find_role_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "5PiEeJ1rz3"
+                    ],
+                    "role": [
+                        "e100LZrFW9",
+                        "5uh2Epzuqe",
+                        "W2MgQV43Yv"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 466,
+                    "y": 1742,
+                    "z": 40,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "889982991189807174"
+                },
+                "outputs": {
+                    "text": [
+                        "OUJoxNSvr2"
+                    ]
+                }
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 1767,
+                    "y": 1450,
+                    "z": 41,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "Q9IJg6xzVd",
+                    "value1": "5uh2Epzuqe",
+                    "value2": "YvYDlUPNpX"
+                },
+                "options": {
+                    "comparison_type": "includes"
+                },
+                "outputs": {
+                    "action1": [
+                        "NEsIsZXquk"
+                    ],
+                    "action2": [
+                        "T5ROs9mkDS"
+                    ]
+                }
+            },
+            {
+                "name": "remove_member_role",
+                "info": {
+                    "x": 2491,
+                    "y": 1446,
+                    "z": 42,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 234
+                },
+                "inputs": {
+                    "action": "NEsIsZXquk",
+                    "member": "f9yLunmtv6",
+                    "role": "W2MgQV43Yv",
+                    "reason": "AjGQDufeww"
+                },
+                "outputs": {
+                    "action": []
                 }
             }
         ],
