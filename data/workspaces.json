@@ -1,7 +1,7 @@
 [
     {
         "info": {
-            "title": "My New Workspace",
+            "title": "Nuke",
             "description": "",
             "thumbnail": ""
         },
@@ -2155,7 +2155,7 @@
     },
     {
         "info": {
-            "title": "Dolar",
+            "title": "Info",
             "description": "",
             "thumbnail": ""
         },
@@ -16211,9 +16211,7 @@
                         "3opMhnAXEb"
                     ],
                     "member": []
-                },
-                "inputs": {},
-                "options": {}
+                }
             },
             {
                 "name": "get_user_info",
@@ -16283,8 +16281,7 @@
                     "boolean": [
                         "aUlq9YC4Hs"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "get_message_info",
@@ -16382,8 +16379,7 @@
                     "text": [
                         "zhVipTuqDp"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "check_comparison",
@@ -16441,8 +16437,7 @@
                         "F1mAfDW8Qc",
                         "lmEN4JqbAG"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "color",
@@ -16461,8 +16456,7 @@
                     "color": [
                         "HLPwfFcQiy"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "boolean",
@@ -16481,8 +16475,7 @@
                     "boolean": [
                         "p6L2sdDPmG"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "get_message_info",
@@ -16634,8 +16627,7 @@
                     "action": [
                         "VQSjjcXsUT"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "send_message",
@@ -16660,8 +16652,7 @@
                         "1Vbp9S2p9J"
                     ],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "get_text_channel_info",
@@ -16708,8 +16699,7 @@
                         "Xjdc3JJ3u8",
                         "4CT9W2vkj5"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "check_comparison",
@@ -16756,8 +16746,7 @@
                         "Gpv6AWrguX",
                         "0baTxDVAdK"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "check_comparison",
@@ -16802,8 +16791,7 @@
                     "action": [
                         "hd8oAmPuxa"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "send_message",
@@ -16826,8 +16814,7 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "find_channel",
