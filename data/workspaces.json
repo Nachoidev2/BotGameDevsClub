@@ -21077,7 +21077,8 @@
                         "vPQJaOxZEM",
                         "b7wdexjGOh",
                         "92WX8qTrth",
-                        "i4uzurcmJn"
+                        "i4uzurcmJn",
+                        "be85KJzLbk"
                     ],
                     "user": [],
                     "error_message": [],
@@ -21201,8 +21202,8 @@
             {
                 "name": "get_user_info",
                 "info": {
-                    "x": 3370,
-                    "y": 2473,
+                    "x": 3246,
+                    "y": 2378,
                     "z": 216,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -21217,7 +21218,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "CRgh4rmRL0"
+                        "z8W3utTLP8"
                     ],
                     "result": [
                         "JZNFZlhldM"
@@ -21244,7 +21245,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "O6uX5HEucn"
+                        "2P9CVCb6Na"
                     ],
                     "message": []
                 }
@@ -21414,7 +21415,8 @@
                         "mnslpgOg1w"
                     ],
                     "message_embed": [
-                        "esP1FpxRvg"
+                        "esP1FpxRvg",
+                        "amBWUAyGAg"
                     ]
                 }
             },
@@ -21434,25 +21436,6 @@
                 "outputs": {
                     "color": [
                         "xR3W7Nr2Eh"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 2453,
-                    "y": 3246,
-                    "z": 232,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "Conversacion del canal de ticket"
-                },
-                "outputs": {
-                    "text": [
-                        "t5RIr5gC4U"
                     ]
                 }
             },
@@ -22443,8 +22426,8 @@
             {
                 "name": "get_message_info",
                 "info": {
-                    "x": 1389,
-                    "y": 2838,
+                    "x": 1376,
+                    "y": 2845,
                     "z": 322,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -22489,15 +22472,17 @@
                         "gI0N9sw99m"
                     ],
                     "value": [
-                        "RBS8vZaBCv"
+                        "RBS8vZaBCv",
+                        "ChMMJGmb75",
+                        "BQctrBJtnl"
                     ]
                 }
             },
             {
                 "name": "get_member_info",
                 "info": {
-                    "x": 2462,
-                    "y": 2549,
+                    "x": 2385,
+                    "y": 2391,
                     "z": 324,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -23694,6 +23679,184 @@
                     "action": [],
                     "message": [],
                     "error": []
+                }
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 4016,
+                    "y": 3077,
+                    "z": 393,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "cBqHpT7XhX",
+                    "channel": "S3ZMxUZjcN",
+                    "text": "74rHDDlcdN",
+                    "embed": "amBWUAyGAg",
+                    "attachment": "VeSv5mth64",
+                    "split_message": "Cv0k6p20FD"
+                },
+                "outputs": {
+                    "action": [
+                        "O6uX5HEucn"
+                    ],
+                    "message": []
+                }
+            },
+            {
+                "name": "find_channel",
+                "info": {
+                    "x": 3383,
+                    "y": 3214,
+                    "z": 394,
+                    "color": "#5a5a5a",
+                    "height": 159,
+                    "width": 558
+                },
+                "inputs": {
+                    "action": "2P9CVCb6Na",
+                    "server": "fuD8j3TPls",
+                    "search_value": "xaygLjg6Ls"
+                },
+                "options": {
+                    "channel_type": "any",
+                    "find_channel_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "cBqHpT7XhX"
+                    ],
+                    "channel": [
+                        "S3ZMxUZjcN"
+                    ]
+                }
+            },
+            {
+                "name": "get_text_channel_info",
+                "info": {
+                    "x": 2651,
+                    "y": 2772,
+                    "z": 395,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 687
+                },
+                "inputs": {
+                    "action": "iguQOtVbZs",
+                    "text_channel": "be85KJzLbk"
+                },
+                "options": {
+                    "text_channel_info": "13"
+                },
+                "outputs": {
+                    "action": [
+                        "sdb68hUeSq"
+                    ],
+                    "result": [
+                        "GTCl46GPf1"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 2075,
+                    "y": 3056,
+                    "z": 396,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "sdb68hUeSq",
+                    "text1": "GTCl46GPf1",
+                    "text2": "9wtC6qpAYU",
+                    "text3": "QOmmeo9oG8"
+                },
+                "options": {
+                    "text": "Conversacion del canal ${text1}\nNombre usuario: ${text2}\nId usuario: ${text3}"
+                },
+                "outputs": {
+                    "action": [
+                        "CRgh4rmRL0"
+                    ],
+                    "text": [
+                        "t5RIr5gC4U"
+                    ]
+                }
+            },
+            {
+                "name": "get_member_info",
+                "info": {
+                    "x": 2652,
+                    "y": 2635,
+                    "z": 397,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 740
+                },
+                "inputs": {
+                    "action": "rnzpxcgbZA",
+                    "member": "ChMMJGmb75"
+                },
+                "options": {
+                    "member_info": "7"
+                },
+                "outputs": {
+                    "action": [
+                        "iguQOtVbZs"
+                    ],
+                    "result": [
+                        "9wtC6qpAYU"
+                    ]
+                }
+            },
+            {
+                "name": "get_member_info",
+                "info": {
+                    "x": 2673,
+                    "y": 2512,
+                    "z": 398,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 740
+                },
+                "inputs": {
+                    "action": "z8W3utTLP8",
+                    "member": "BQctrBJtnl"
+                },
+                "options": {
+                    "member_info": "11"
+                },
+                "outputs": {
+                    "action": [
+                        "rnzpxcgbZA"
+                    ],
+                    "result": [
+                        "QOmmeo9oG8"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 3147,
+                    "y": 3549,
+                    "z": 399,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "889281680311988255"
+                },
+                "outputs": {
+                    "text": [
+                        "xaygLjg6Ls"
+                    ]
                 }
             }
         ],
