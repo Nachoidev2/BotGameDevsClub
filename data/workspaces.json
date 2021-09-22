@@ -21544,15 +21544,15 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1899,
-                    "y": 2204,
+                    "x": 1910,
+                    "y": 2220,
                     "z": 246,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "Ayuda"
+                    "text": "Ticket"
                 },
                 "outputs": {
                     "text": [
