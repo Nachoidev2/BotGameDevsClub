@@ -5551,8 +5551,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 3000,
-                    "y": 540,
+                    "x": 3447,
+                    "y": 388,
                     "z": 8,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -5586,11 +5586,12 @@
                 },
                 "outputs": {
                     "action": [
-                        "KW88RFot2o"
+                        "mkKk1VJaVd"
                     ],
                     "result": [
                         "70EWkev9Ku",
-                        "D3vmPYiUxr"
+                        "D3vmPYiUxr",
+                        "HtYGa6QEKJ"
                     ]
                 }
             },
@@ -5627,8 +5628,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 3050,
-                    "y": 732,
+                    "x": 3450,
+                    "y": 543,
                     "z": 14,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -5646,8 +5647,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 3074,
-                    "y": 980,
+                    "x": 3502,
+                    "y": 743,
                     "z": 15,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -5976,7 +5977,7 @@
                     "text_channel": "yo4x4NCNj7"
                 },
                 "options": {
-                    "text_channel_info": "16"
+                    "text_channel_info": "5"
                 },
                 "outputs": {
                     "action": [
@@ -6079,6 +6080,64 @@
                     "action2": [
                         "b9qxXiVGjE"
                     ]
+                }
+            },
+            {
+                "name": "Switch_conditional",
+                "info": {
+                    "x": 2977,
+                    "y": 563,
+                    "z": 38,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 440
+                },
+                "inputs": {
+                    "action": "mkKk1VJaVd",
+                    "value1": "HtYGa6QEKJ",
+                    "sw0": "FTe1l9I1DK",
+                    "sw1": "2Rv76Hvu4G",
+                    "sw2": "uhSkvXOxB1",
+                    "sw3": "bt5PZDLSPz",
+                    "sw4": "WdoQcZQyQq",
+                    "sw5": "uJQ6NSX765"
+                },
+                "options": {
+                    "operation": "includes"
+                },
+                "outputs": {
+                    "swo0": [],
+                    "swo1": [],
+                    "swo2": [],
+                    "swo3": [],
+                    "swo4": [],
+                    "swo5": [],
+                    "swo6": [
+                        "KW88RFot2o"
+                    ]
+                }
+            },
+            {
+                "name": "text_3x",
+                "info": {
+                    "x": 2550,
+                    "y": 644,
+                    "z": 39,
+                    "color": "#5a5a5a",
+                    "height": 252,
+                    "width": 318
+                },
+                "options": {
+                    "text1": "gif",
+                    "text2": "",
+                    "text3": ""
+                },
+                "outputs": {
+                    "text1": [
+                        "FTe1l9I1DK"
+                    ],
+                    "text2": [],
+                    "text3": []
                 }
             }
         ],
