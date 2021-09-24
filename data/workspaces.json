@@ -21353,8 +21353,8 @@
             {
                 "name": "command_event_with_text",
                 "info": {
-                    "x": 414,
-                    "y": 2236,
+                    "x": 194,
+                    "y": 2226,
                     "z": 210,
                     "color": "#5a5a5a",
                     "height": 401,
@@ -21375,7 +21375,7 @@
                 },
                 "outputs": {
                     "action1": [
-                        "g0MZcQSVig"
+                        "BWAD5xINH5"
                     ],
                     "action2": [],
                     "message": [],
@@ -21387,9 +21387,7 @@
                         "be85KJzLbk"
                     ],
                     "user": [],
-                    "error_message": [
-                        "jOywEzJymG"
-                    ],
+                    "error_message": [],
                     "server": [],
                     "vc": [],
                     "member": []
@@ -24230,23 +24228,59 @@
                 }
             },
             {
-                "name": "console_log",
+                "name": "command_event_with_text",
                 "info": {
-                    "x": 1117,
-                    "y": 2730,
-                    "z": 404,
+                    "x": 143,
+                    "y": 2673,
+                    "z": 405,
                     "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 211
+                    "height": 401,
+                    "width": 759
                 },
                 "inputs": {
-                    "action": "g0MZcQSVig",
-                    "value": "jOywEzJymG"
+                    "command_slowmode": "2UDBdH5cWw"
+                },
+                "options": {
+                    "command_name": "borrar",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
                 },
                 "outputs": {
-                    "action": [
-                        "BWAD5xINH5"
-                    ]
+                    "action1": [
+                        "CDNYKuWPLB"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [
+                        "uCCxqkxqpH"
+                    ],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "delete_channel",
+                "info": {
+                    "x": 1057,
+                    "y": 2802,
+                    "z": 406,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 223
+                },
+                "inputs": {
+                    "action": "CDNYKuWPLB",
+                    "channel": "uCCxqkxqpH",
+                    "reason": "h66EllRtxI"
+                },
+                "outputs": {
+                    "action": []
                 }
             }
         ],
