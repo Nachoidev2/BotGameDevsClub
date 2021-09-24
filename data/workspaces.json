@@ -21375,7 +21375,7 @@
                 },
                 "outputs": {
                     "action1": [
-                        "BWAD5xINH5"
+                        "g0MZcQSVig"
                     ],
                     "action2": [],
                     "message": [],
@@ -21387,7 +21387,9 @@
                         "be85KJzLbk"
                     ],
                     "user": [],
-                    "error_message": [],
+                    "error_message": [
+                        "jOywEzJymG"
+                    ],
                     "server": [],
                     "vc": [],
                     "member": []
@@ -22711,8 +22713,8 @@
             {
                 "name": "get_message_info",
                 "info": {
-                    "x": 1376,
-                    "y": 2845,
+                    "x": 1380,
+                    "y": 2833,
                     "z": 322,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -24224,6 +24226,26 @@
                 "outputs": {
                     "text": [
                         "TB17i01f1I"
+                    ]
+                }
+            },
+            {
+                "name": "console_log",
+                "info": {
+                    "x": 1117,
+                    "y": 2730,
+                    "z": 404,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "g0MZcQSVig",
+                    "value": "jOywEzJymG"
+                },
+                "outputs": {
+                    "action": [
+                        "BWAD5xINH5"
                     ]
                 }
             }
