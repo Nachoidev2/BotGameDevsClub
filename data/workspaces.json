@@ -21396,8 +21396,8 @@
             {
                 "name": "delete_channel",
                 "info": {
-                    "x": 5032,
-                    "y": 2818,
+                    "x": 5035,
+                    "y": 2787,
                     "z": 211,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -24166,7 +24166,9 @@
                     "action1": [
                         "FeuAxrMEiA"
                     ],
-                    "action2": []
+                    "action2": [
+                        "2Gsjj8tuoA"
+                    ]
                 }
             },
             {
@@ -24185,6 +24187,43 @@
                 "outputs": {
                     "text": [
                         "s1P18Y6MJA"
+                    ]
+                }
+            },
+            {
+                "name": "console_log",
+                "info": {
+                    "x": 4852,
+                    "y": 3006,
+                    "z": 402,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "2Gsjj8tuoA",
+                    "value": "TB17i01f1I"
+                },
+                "outputs": {
+                    "action": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 4328,
+                    "y": 3193,
+                    "z": 403,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "error :3"
+                },
+                "outputs": {
+                    "text": [
+                        "TB17i01f1I"
                     ]
                 }
             }
