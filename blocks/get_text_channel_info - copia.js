@@ -113,7 +113,7 @@ module.exports = {
                 result = text_channel.members.array();
                 break;
             case 11:
-                result = text_channel.messages.fetchMessages().array();
+                result = text_channel.messages.fetch().array();
                 break;
             case 12:
                 result = await text_channel.messages.fetchPinned().then(a => a.array());
