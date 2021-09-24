@@ -21539,8 +21539,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1355,
-                    "y": 2567,
+                    "x": 1486,
+                    "y": 2537,
                     "z": 221,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -21558,8 +21558,8 @@
             {
                 "name": "get_user_info - copia",
                 "info": {
-                    "x": 718,
-                    "y": 1973,
+                    "x": 702,
+                    "y": 1919,
                     "z": 223,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -21577,15 +21577,16 @@
                         "2I85qRL2mN"
                     ],
                     "result": [
-                        "k0FqzNjmOm"
+                        "k0FqzNjmOm",
+                        "P8hvjIR9EE"
                     ]
                 }
             },
             {
                 "name": "generate_random_number",
                 "info": {
-                    "x": 1270,
-                    "y": 1886,
+                    "x": 1286,
+                    "y": 1893,
                     "z": 226,
                     "color": "#5a5a5a",
                     "height": 186,
@@ -21728,8 +21729,8 @@
             {
                 "name": "get_text_channel_info",
                 "info": {
-                    "x": 1573,
-                    "y": 2035,
+                    "x": 1616,
+                    "y": 2031,
                     "z": 233,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -22712,8 +22713,8 @@
             {
                 "name": "get_message_info",
                 "info": {
-                    "x": 1380,
-                    "y": 2833,
+                    "x": 1270,
+                    "y": 2998,
                     "z": 322,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -22738,8 +22739,8 @@
             {
                 "name": "get_item_from_list",
                 "info": {
-                    "x": 2102,
-                    "y": 2834,
+                    "x": 1961,
+                    "y": 2919,
                     "z": 323,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -22754,11 +22755,8 @@
                     "position_type": "first"
                 },
                 "outputs": {
-                    "action": [
-                        "gI0N9sw99m"
-                    ],
+                    "action": [],
                     "value": [
-                        "RBS8vZaBCv",
                         "ChMMJGmb75",
                         "BQctrBJtnl"
                     ]
@@ -24281,10 +24279,10 @@
                 }
             },
             {
-                "name": "get_text_channel_info - copia",
+                "name": "get_text_channel_info",
                 "info": {
-                    "x": 1212,
-                    "y": 2679,
+                    "x": 1108,
+                    "y": 2667,
                     "z": 407,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -24295,14 +24293,42 @@
                     "text_channel": "36eEvTWR6E"
                 },
                 "options": {
-                    "text_channel_info": "29"
+                    "text_channel_info": "21"
                 },
                 "outputs": {
                     "action": [
-                        "qBjiU8jcdr"
+                        "EXcgKkZCDS"
                     ],
                     "result": [
-                        "P5GaIDstQb"
+                        "P5GaIDstQb",
+                        "IyukWrtiGe"
+                    ]
+                }
+            },
+            {
+                "name": "find_member",
+                "info": {
+                    "x": 1934,
+                    "y": 2769,
+                    "z": 408,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 481
+                },
+                "inputs": {
+                    "action": "EXcgKkZCDS",
+                    "server": "1dikETf8TG",
+                    "search_value": "IyukWrtiGe"
+                },
+                "options": {
+                    "find_member_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "gI0N9sw99m"
+                    ],
+                    "member": [
+                        "RBS8vZaBCv"
                     ]
                 }
             }
