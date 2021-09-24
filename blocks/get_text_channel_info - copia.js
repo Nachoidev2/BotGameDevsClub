@@ -79,6 +79,7 @@ module.exports = {
     async code(cache) {
         const text_channel = this.GetInputValue("text_channel", cache);
         const text_channel_info = parseInt(this.GetOptionValue("text_channel_info", cache));
+        const fetch = await this.require("node-fetch");
 
         let result;
         switch(text_channel_info) {
