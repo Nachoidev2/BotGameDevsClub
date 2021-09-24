@@ -21437,10 +21437,10 @@
                 }
             },
             {
-                "name": "get_text_channel_info",
+                "name": "get_text_channel_info - copia",
                 "info": {
-                    "x": 952,
-                    "y": 2344,
+                    "x": 1033,
+                    "y": 2357,
                     "z": 214,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -21541,8 +21541,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1196,
-                    "y": 2505,
+                    "x": 1307,
+                    "y": 2487,
                     "z": 221,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -22710,55 +22710,6 @@
                     "text": [
                         "bcpgSP4LcY"
                     ]
-                }
-            },
-            {
-                "name": "get_message_info",
-                "info": {
-                    "x": 1285,
-                    "y": 2976,
-                    "z": 322,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 653
-                },
-                "inputs": {
-                    "action": "qBjiU8jcdr",
-                    "message": "P5GaIDstQb"
-                },
-                "options": {
-                    "message_info": "18"
-                },
-                "outputs": {
-                    "action": [
-                        "hoUbRnrkiC"
-                    ],
-                    "result": [
-                        "3UFNU7cEgb"
-                    ]
-                }
-            },
-            {
-                "name": "get_item_from_list",
-                "info": {
-                    "x": 1992,
-                    "y": 2921,
-                    "z": 323,
-                    "color": "#5a5a5a",
-                    "height": 165,
-                    "width": 443
-                },
-                "inputs": {
-                    "action": "hoUbRnrkiC",
-                    "list": "3UFNU7cEgb",
-                    "custom_position": "NUdUpxD0IZ"
-                },
-                "options": {
-                    "position_type": "first"
-                },
-                "outputs": {
-                    "action": [],
-                    "value": []
                 }
             },
             {
@@ -24280,8 +24231,8 @@
             {
                 "name": "get_text_channel_info",
                 "info": {
-                    "x": 921,
-                    "y": 2656,
+                    "x": 918,
+                    "y": 2632,
                     "z": 407,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -24299,7 +24250,6 @@
                         "g03FFlE8vN"
                     ],
                     "result": [
-                        "P5GaIDstQb",
                         "IyukWrtiGe",
                         "Hg4LtAl6HD"
                     ]
@@ -24352,6 +24302,28 @@
                     "action": [
                         "EXcgKkZCDS"
                     ]
+                }
+            },
+            {
+                "name": "get_text_channel_info - copia",
+                "info": {
+                    "x": 1096,
+                    "y": 2556,
+                    "z": 410,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 687
+                },
+                "inputs": {
+                    "action": "iYOcwAiM4y",
+                    "text_channel": "Gzw1sVBcHP"
+                },
+                "options": {
+                    "text_channel_info": "1"
+                },
+                "outputs": {
+                    "action": [],
+                    "result": []
                 }
             }
         ],
