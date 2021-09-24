@@ -21384,7 +21384,8 @@
                         "b7wdexjGOh",
                         "92WX8qTrth",
                         "i4uzurcmJn",
-                        "be85KJzLbk"
+                        "be85KJzLbk",
+                        "36eEvTWR6E"
                     ],
                     "user": [],
                     "error_message": [],
@@ -21436,8 +21437,8 @@
             {
                 "name": "get_text_channel_info",
                 "info": {
-                    "x": 1274,
-                    "y": 2387,
+                    "x": 1158,
+                    "y": 2338,
                     "z": 214,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -21477,7 +21478,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "3ZqRGBlvdr"
+                        "ioqLeH0mmd"
                     ],
                     "text": [
                         "rO5zYgvI8g"
@@ -21487,8 +21488,8 @@
             {
                 "name": "get_user_info",
                 "info": {
-                    "x": 3246,
-                    "y": 2378,
+                    "x": 3265,
+                    "y": 2380,
                     "z": 216,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -22737,8 +22738,8 @@
             {
                 "name": "get_item_from_list",
                 "info": {
-                    "x": 2100,
-                    "y": 2835,
+                    "x": 2102,
+                    "y": 2834,
                     "z": 323,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -22793,8 +22794,8 @@
             {
                 "name": "get_item_from_list",
                 "info": {
-                    "x": 1759,
-                    "y": 2594,
+                    "x": 1949,
+                    "y": 2602,
                     "z": 326,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -22809,12 +22810,8 @@
                     "position_type": "first"
                 },
                 "outputs": {
-                    "action": [
-                        "qBjiU8jcdr"
-                    ],
-                    "value": [
-                        "P5GaIDstQb"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             },
             {
@@ -24281,6 +24278,32 @@
                 },
                 "outputs": {
                     "action": []
+                }
+            },
+            {
+                "name": "get_text_channel_info - copia",
+                "info": {
+                    "x": 1212,
+                    "y": 2679,
+                    "z": 407,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 687
+                },
+                "inputs": {
+                    "action": "ioqLeH0mmd",
+                    "text_channel": "36eEvTWR6E"
+                },
+                "options": {
+                    "text_channel_info": "29"
+                },
+                "outputs": {
+                    "action": [
+                        "qBjiU8jcdr"
+                    ],
+                    "result": [
+                        "P5GaIDstQb"
+                    ]
                 }
             }
         ],
