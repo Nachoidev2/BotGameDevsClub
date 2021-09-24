@@ -22713,8 +22713,8 @@
             {
                 "name": "get_message_info",
                 "info": {
-                    "x": 1270,
-                    "y": 2998,
+                    "x": 1285,
+                    "y": 2976,
                     "z": 322,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -22739,8 +22739,8 @@
             {
                 "name": "get_item_from_list",
                 "info": {
-                    "x": 1961,
-                    "y": 2919,
+                    "x": 1992,
+                    "y": 2921,
                     "z": 323,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -22756,10 +22756,7 @@
                 },
                 "outputs": {
                     "action": [],
-                    "value": [
-                        "ChMMJGmb75",
-                        "BQctrBJtnl"
-                    ]
+                    "value": []
                 }
             },
             {
@@ -24281,8 +24278,8 @@
             {
                 "name": "get_text_channel_info",
                 "info": {
-                    "x": 1108,
-                    "y": 2667,
+                    "x": 1144,
+                    "y": 2699,
                     "z": 407,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -24308,8 +24305,8 @@
             {
                 "name": "find_member",
                 "info": {
-                    "x": 1934,
-                    "y": 2769,
+                    "x": 1967,
+                    "y": 2753,
                     "z": 408,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -24328,7 +24325,9 @@
                         "gI0N9sw99m"
                     ],
                     "member": [
-                        "RBS8vZaBCv"
+                        "RBS8vZaBCv",
+                        "BQctrBJtnl",
+                        "ChMMJGmb75"
                     ]
                 }
             }
