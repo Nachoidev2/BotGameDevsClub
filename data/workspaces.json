@@ -24278,8 +24278,8 @@
             {
                 "name": "get_text_channel_info",
                 "info": {
-                    "x": 1144,
-                    "y": 2699,
+                    "x": 1163,
+                    "y": 2685,
                     "z": 407,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -24294,19 +24294,20 @@
                 },
                 "outputs": {
                     "action": [
-                        "EXcgKkZCDS"
+                        "g03FFlE8vN"
                     ],
                     "result": [
                         "P5GaIDstQb",
-                        "IyukWrtiGe"
+                        "IyukWrtiGe",
+                        "Hg4LtAl6HD"
                     ]
                 }
             },
             {
                 "name": "find_member",
                 "info": {
-                    "x": 1967,
-                    "y": 2753,
+                    "x": 1984,
+                    "y": 2786,
                     "z": 408,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -24328,6 +24329,26 @@
                         "RBS8vZaBCv",
                         "BQctrBJtnl",
                         "ChMMJGmb75"
+                    ]
+                }
+            },
+            {
+                "name": "console_log",
+                "info": {
+                    "x": 1528,
+                    "y": 2809,
+                    "z": 409,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "g03FFlE8vN",
+                    "value": "Hg4LtAl6HD"
+                },
+                "outputs": {
+                    "action": [
+                        "EXcgKkZCDS"
                     ]
                 }
             }
