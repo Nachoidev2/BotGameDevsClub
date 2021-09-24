@@ -21389,7 +21389,9 @@
                     ],
                     "user": [],
                     "error_message": [],
-                    "server": [],
+                    "server": [
+                        "1dikETf8TG"
+                    ],
                     "vc": [],
                     "member": []
                 }
@@ -21437,8 +21439,8 @@
             {
                 "name": "get_text_channel_info",
                 "info": {
-                    "x": 1158,
-                    "y": 2338,
+                    "x": 952,
+                    "y": 2344,
                     "z": 214,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -21464,8 +21466,8 @@
             {
                 "name": "convert_list_to_text",
                 "info": {
-                    "x": 2039,
-                    "y": 2412,
+                    "x": 1855,
+                    "y": 2349,
                     "z": 215,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -21539,8 +21541,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1486,
-                    "y": 2537,
+                    "x": 1196,
+                    "y": 2505,
                     "z": 221,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -22762,8 +22764,8 @@
             {
                 "name": "get_member_info",
                 "info": {
-                    "x": 2372,
-                    "y": 2373,
+                    "x": 2407,
+                    "y": 2316,
                     "z": 324,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -22789,8 +22791,8 @@
             {
                 "name": "get_item_from_list",
                 "info": {
-                    "x": 1949,
-                    "y": 2602,
+                    "x": 1839,
+                    "y": 2518,
                     "z": 326,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -24278,8 +24280,8 @@
             {
                 "name": "get_text_channel_info",
                 "info": {
-                    "x": 1163,
-                    "y": 2685,
+                    "x": 921,
+                    "y": 2656,
                     "z": 407,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -24306,8 +24308,8 @@
             {
                 "name": "find_member",
                 "info": {
-                    "x": 1984,
-                    "y": 2786,
+                    "x": 1869,
+                    "y": 2756,
                     "z": 408,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -24335,8 +24337,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 1528,
-                    "y": 2809,
+                    "x": 1623,
+                    "y": 2686,
                     "z": 409,
                     "color": "#5a5a5a",
                     "height": 113,
