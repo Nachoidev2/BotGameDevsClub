@@ -24303,58 +24303,6 @@
                         "EXcgKkZCDS"
                     ]
                 }
-            },
-            {
-                "name": "get_text_channel_info - copia",
-                "info": {
-                    "x": 1096,
-                    "y": 2556,
-                    "z": 410,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 687
-                },
-                "inputs": {
-                    "action": "iYOcwAiM4y",
-                    "text_channel": "Gzw1sVBcHP"
-                },
-                "options": {
-                    "text_channel_info": "1"
-                },
-                "outputs": {
-                    "action": [],
-                    "result": []
-                }
-            },
-            {
-                "name": "run_javascript_code",
-                "info": {
-                    "x": 1218,
-                    "y": 2531,
-                    "z": 411,
-                    "color": "#5a5a5a",
-                    "height": 268,
-                    "width": 681
-                },
-                "inputs": {
-                    "action": "C1ksbtyPiQ",
-                    "javascript_code": "8YDhfmHb6v",
-                    "value1": "kLcMMlnHLN",
-                    "value2": "rPHmfx86Tu",
-                    "value3": "GcpMEDbkJV"
-                },
-                "options": {
-                    "block_behavior": "yes"
-                },
-                "outputs": {
-                    "action": [],
-                    "return_value": [],
-                    "time_taken": [],
-                    "value1": [],
-                    "value2": [],
-                    "value3": [],
-                    "error_message": []
-                }
             }
         ],
         "notes": []
